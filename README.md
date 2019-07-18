@@ -12,9 +12,19 @@ You can just download the class from github and use it in your project, the only
   
 ### Composer
 
-I made this class available trough composer,
-  
-// TODO composer
+If you're using Composer to manage dependencies, you can use
+
+    $ composer require r0adrunn3r/easy-pnp
+
+or you can include the following in your composer.json file:
+
+```json
+{
+    "require": {
+        "setasign/fpdf": ">=0.6.1"
+    }
+}
+```
   
 ## How to use
 
