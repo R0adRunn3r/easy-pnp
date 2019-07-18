@@ -14,14 +14,14 @@ You can just download the class from github and use it in your project, the only
 
 If you're using Composer to manage dependencies, you can use
 
-    $ composer require r0adrunn3r/easy-pnp
+`$ composer require r0adrunn3r/easy-pnp`
 
-or you can include the following in your composer.json file:
+or you can include the following in your composer.json:
 
 ```json
 {
     "require": {
-        "setasign/fpdf": ">=0.6.1"
+        "r0adrunn3r/easy-pnp": ">=0.6.1"
     }
 }
 ```
