@@ -1,0 +1,22 @@
+{
+    "name": "r0adrunn3r/easy-pnp",
+    "version": "0.6.1",
+    "homepage": "https://github.com/R0adRunn3r/easy-pnp",
+    "description": "EasyPnP is a PHP class which allows to generate easily a PDF for PnP (Print and Play) Games from images.",
+    "type": "library",
+    "keywords": ["pdf", "fpdf", "pnp", "card", "game", "tabletop", "cardgame"],
+    "license": "AGPL-3.0",
+    "authors": [
+        {
+            "name": "Ivan Di Rienzo"
+        }
+    ],
+    "require": {
+        "setasign/fpdf": ">=1.8.1"
+    },
+    "autoload": {
+        "classmap": [
+            "EasyPnP.php"
+        ]
+    }
+}
